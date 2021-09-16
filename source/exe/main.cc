@@ -4,6 +4,6 @@ using namespace std;
 
 int main() {
 
-    cout << "Prototyping..!!" << endl;
+    cout << "envoy-prototyping" << endl;
     return 0;
 }
