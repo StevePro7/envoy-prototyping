@@ -1,3 +1,3 @@
 workspace(name = "envoy")
 
-load("//bazel:api_binding.bzl", "envoy_api_binding")
+#load("//bazel:repositories.bzl", "envoy_dependencies")
