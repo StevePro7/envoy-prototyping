@@ -5,6 +5,8 @@ Envoy prototyping repository
 .bazelrc
 .clang-tidy
 
+LLVM + Clang
+sudo apt install libncurses5
 
 BUILD
 :~/GitHub/StevePro7/envoy-prototyping/bazel/external
@@ -23,3 +25,4 @@ Error:(7, 11) no such package '@com_google_googletest//': The repository '@com_g
 Solution
 Workspace
 load("//bazel:repositories.bzl", "envoy_dependencies")
+
